@@ -54,6 +54,7 @@ security:
        # - { path: /registration, roles: IS_AUTHENTICATED_ANONYMOUSLY }
        # - { path: /password-reset, roles: IS_AUTHENTICATED_ANONYMOUSLY }
        # - { path: /password-forget, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+       # - { path: /uploads, roles: IS_AUTHENTICATED_ANONYMOUSLY }
        # - { path: /_fragment, roles: IS_AUTHENTICATED_ANONYMOUSLY }
        - { path: /profile, roles: ROLE_USER }
        - { path: /completion, roles: ROLE_USER }
